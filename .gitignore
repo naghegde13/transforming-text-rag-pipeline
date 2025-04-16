@@ -1,0 +1,36 @@
+# Ignore Python cache and temp files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Jupyter/Colab artifacts
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pinecone or token files (if saved locally)
+*.env
+*.secret
+*.token
+
+# Large language model or embedding cache
+*.bin
+*.pt
+*.pickle
+*.pkl
+*.log
+
+# VSCode settings
+.vscode/
